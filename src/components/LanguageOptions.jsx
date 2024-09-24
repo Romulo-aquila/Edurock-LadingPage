@@ -79,7 +79,7 @@ function LanguageOptions() {
         <>
     <Container>
         <BtnOptions onClick={onClick}>
-            <ImgFlag src="src\images\bandeiradobrasil.png" alt="BrasilBandeira" 
+            <ImgFlag src="assets/bandeiradobrasil.png" alt="BrasilBandeira" 
             height={20} width={27} />
             <TextBtn>PT-BR</TextBtn>
             <IoIosArrowDown/>
@@ -89,13 +89,13 @@ function LanguageOptions() {
             <ul>
         <OptList>
             <OptLink href="#">
-            <ImgFlag src="src\images\bandeiraInglesa.png" alt="InglaterraBandeira"
+            <ImgFlag src="assets/bandeiraInglesa.png" alt="InglaterraBandeira"
             height={20} width={27}/>
                 ENG</OptLink>
         </OptList>
         <OptList>
             <OptLink href="#">
-        <ImgFlag src="src\images\bandeiraEspanha.png" alt="EspanhaBandeira"
+        <ImgFlag src="assets/bandeiraEspanha.png" alt="EspanhaBandeira"
         height={20} width={27} />
                 ES</OptLink>
         </OptList>
