@@ -16,6 +16,7 @@ function UserLogin() {
 
    &:hover {
     background-color: #5f2ded;
+    color: #fff;
    }
   `;
 
