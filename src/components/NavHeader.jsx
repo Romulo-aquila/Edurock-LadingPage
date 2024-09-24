@@ -62,7 +62,7 @@ function NavHeader() {
 
   return (
     <NavContainer>
-        <img src="src/images/logo_1.png" alt="logo_EduRock" />
+        <img src="assets/logo_1.png" alt="logo_EduRock" />
         <NavList>
             <itemList><LinkList href="#">Demos 
             <Arrow><RiArrowDownSLine/></Arrow></LinkList></itemList>
