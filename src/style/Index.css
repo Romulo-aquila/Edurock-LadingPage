@@ -6,3 +6,7 @@
     box-sizing: border-box;
     font-family: "Roboto", system-ui;
 }
+
+body {
+    background-color: #fbfbfb;
+}
