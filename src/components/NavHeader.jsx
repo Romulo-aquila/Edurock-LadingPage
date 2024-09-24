@@ -75,7 +75,7 @@ function NavHeader() {
             <itemList><LinkList href="#">eCommerce 
             <Arrow><RiArrowDownSLine/></Arrow></LinkList></itemList>
         </NavList>
-        <BtnStart>Começe por aqui</BtnStart>
+        <BtnStart>Comece por aqui</BtnStart>
     </NavContainer>
   )
 }
