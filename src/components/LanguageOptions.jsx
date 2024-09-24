@@ -8,6 +8,8 @@ function LanguageOptions() {
     const onClick = () => setIsActive(!isActive);
 
     const Container = styled.div`
+     position: relative;
+     top: 57px;
      z-index: 3;
     `;
 
@@ -24,6 +26,7 @@ function LanguageOptions() {
     /* margin: 5.5px 0; */
     display: flex;
     align-items: center;
+    padding-left: 12px;
     width: 220%;
     height: 45px;
     background-color: #fff;
