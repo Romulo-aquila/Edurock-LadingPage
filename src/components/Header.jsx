@@ -1,11 +1,18 @@
 import styled from "styled-components";
 import { IoSearchOutline } from "react-icons/io5";
 import LanguageOptions from "./LanguageOptions";
+import PriceOptions from "./PriceOptions";
+import ShoppingMenu from "./ShoppingMenu";
+import UserLogin from "./UserLogin";
 
 function Header() {
     const HeaderContainer = styled.div`
         display: flex;
         flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+
+        position: absolute;
         z-index: 1;
         width: 100%;
         height: 87.7px;
@@ -46,17 +53,29 @@ function Header() {
         cursor: pointer;
     `;
 
+    const OptsDiv = styled.div`
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    `;
+
     return(
         <>
         <HeaderContainer>
-        <LanguageOptions/>
+        <OptsDiv>
+            <LanguageOptions/>
+            <PriceOptions/>
+        </OptsDiv>
             <SearchForm>
                 <SearchPlace placeholder="Pesquisar Curso"/>
                 <SearchIcon>
                     <IoSearchOutline/>
                 </SearchIcon>
             </SearchForm>
-
+    <OptsDiv>
+        <ShoppingMenu/>
+        <UserLogin/>
+    </OptsDiv>
         </HeaderContainer>
         </>
     )
