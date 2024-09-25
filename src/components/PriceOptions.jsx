@@ -1,24 +1,21 @@
 import styled from "styled-components";
 import { IoIosArrowDown } from "react-icons/io";
-import { useRef, useState } from "react";
 
 function PriceOptions() {
-    const DropDownRef = useRef(null);
-    const [ isActive, setIsActive ] = useState(true);
-    const onMenu = () => setIsActive(!isActive)
 
     const Container = styled.div`
     position: relative;
     top: 57px;
-    z-index: 3;
+    
    `;
 
    const MenuContainer = styled.nav`
-   &.active {
        visibility: hidden;
-   }
-       visibility: visible;
        margin: 12px 0;
+
+       &:hover {
+       visibility: visible;
+   }
    `;
 
    const OptList = styled.li`
@@ -48,6 +45,10 @@ function PriceOptions() {
    font-weight: 500;
    transition: all 0.2s;
 
+   &:hover + ${MenuContainer} {
+       visibility: visible;
+   }
+
    &:hover {
        color: white;
    }
@@ -68,17 +69,21 @@ function PriceOptions() {
        cursor: pointer;
        background: none;
        border: none;
+
+       &:hover + ${MenuContainer} {
+       visibility: visible;
+   }
    `;
 
    return (
        <>
    <Container>
-       <BtnOptions onClick={onMenu}>
+       <BtnOptions>
            <TextBtn>BRL</TextBtn>
            <IoIosArrowDown/>
        </BtnOptions>
    
-       <MenuContainer ref={DropDownRef} className={isActive ? "active" : "inactive"}>
+       <MenuContainer>
            <ul>
        <OptList>
            <OptLink href="#">

@@ -21,7 +21,7 @@ function ShoppingMenu(){
     font-size: 1.6rem;
     width: 47px;
     height: 45px;
-    background-color: #fff;
+    background-color: #fbfbfb;
     display: flex;
     justify-content: center;
     align-items: center;
