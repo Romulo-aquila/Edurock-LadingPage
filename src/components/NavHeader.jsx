@@ -44,7 +44,7 @@ function NavHeader() {
     border-radius: 4.5px;
     color: #fff;
     font-size: 14.5px;
-    font-weight: 500;
+    font-weight: 400;
     cursor: pointer;
     transition: 0.4s;
 
