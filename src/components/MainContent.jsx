@@ -5,7 +5,7 @@ function MainContent() {
 
     const PlaceMain = styled.main`
     width: 100%;
-    height: 674px;
+    height: 670px;
     display: flex;
     flex-direction: row;
     background-color: #f7f8fd;
@@ -101,6 +101,34 @@ function MainContent() {
         opacity: 45%;
     `;
 
+    const Circles = styled.div`
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        padding-right: 12.5rem;
+        padding-bottom: 20px;
+        gap: 0.5rem;
+    `;
+
+    const Cicle01 = styled.div`
+        width: 20px;
+        height: 20px;
+        border-radius: 2rem;
+        background-color: #5f2ded;
+        border: 5.5px double #fff;
+        cursor: pointer;
+    `;
+
+    const Cicle02 = styled.div`
+        width: 15px;
+        height: 15px;
+        border-radius: 2rem;
+        background-color: #fff;
+        border: 2.8px solid #b4b4b4;
+        cursor: pointer;
+    `;
+
     return (
         <>
       <PlaceMain>
@@ -120,6 +148,11 @@ function MainContent() {
           </Main>
           <CardCourses/>
       </PlaceMain>
+        <Circles>
+            <Cicle01></Cicle01>
+            <Cicle02></Cicle02>
+            <Cicle02></Cicle02>
+        </Circles>
         </>
     )
 }

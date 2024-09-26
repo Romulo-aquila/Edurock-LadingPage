@@ -52,8 +52,9 @@ function CardCourses() {
     const Info = styled.div`
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    margin: 18.5px 0 0 0;
+    /* justify-content: space-between; */
+    gap: 5.5rem;
+    margin: 18.5px 0 0 1.8rem;
     `;
 
     const InfoText = styled.p`
@@ -62,11 +63,13 @@ function CardCourses() {
 
     const Icon = styled.div`
         color:#5f2ded;
+        font-size: 12.5pt;
     `;
 
     const IconTxt = styled.div`
     display: flex;
     flex-direction: row;
+    gap: 3.5px;
     `;
     
     const TitleCard = styled.h2`
@@ -147,6 +150,7 @@ function CardCourses() {
     `;
 
   return (
+    <>
     <CardConteiner>
        <ImgPlace>
            <Image>
@@ -198,8 +202,8 @@ function CardCourses() {
             </PlaceStars>
         </DivLinear>
     </DivL>
-        
     </CardConteiner>
+    </>
   )
 }
 
