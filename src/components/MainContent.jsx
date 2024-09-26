@@ -107,7 +107,8 @@ function MainContent() {
         justify-content: flex-end;
         align-items: center;
         padding-right: 12.5rem;
-        padding-bottom: 20px;
+        background-color: #f7f8fd;
+        padding-bottom: 35px;
         gap: 0.5rem;
     `;
 
