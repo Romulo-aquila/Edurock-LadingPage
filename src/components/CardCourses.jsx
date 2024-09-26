@@ -169,13 +169,13 @@ function CardCourses() {
         </IconTxt>
        </Info>
 
-    <TitleCard>Figma para HTML</TitleCard>
+        <TitleCard>Figma para HTML</TitleCard>
     <Description>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, libero!          
     </Description>
-    <PriceTxt>
-        R$ 32.00 <DiscountTxt>/ 67.00</DiscountTxt>
-    </PriceTxt>
+        <PriceTxt>
+            R$ 32.00 <DiscountTxt>/ 67.00</DiscountTxt>
+        </PriceTxt>
     <DivL>
         <DivLinear>
             <ProfileContent>
