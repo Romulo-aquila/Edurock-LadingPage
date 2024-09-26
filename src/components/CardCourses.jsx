@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { FaBook } from "react-icons/fa";
 import { IoMdTime } from "react-icons/io";
+import { IoStar } from "react-icons/io5";
 
 function CardCourses() {
     const CardConteiner = styled.section`
@@ -29,6 +30,7 @@ function CardCourses() {
         background-size: cover;
         background-repeat: no-repeat;
         border-radius: 16px;
+        cursor: pointer;
     `;
 
     const Legend = styled.div`
@@ -94,19 +96,55 @@ function CardCourses() {
         color: #a2a9b6;
       
     `;
+
+    const DivL = styled.div`
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    `;
     
     const DivLinear = styled.div`
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 12px 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 18.5px 0;
+        border-top: 1px solid #e3e3e3;
+        height: 85px;
+        width: 364px;
     `;
 
-    const Linear = styled.hr`
-    width: 365px;
-    border: 0.2px solid #e3e3e3;
+    const ImgProfile = styled.img`
+        border-radius: 2rem;
     `;
     
+    const ProfileName = styled.p`
+        font-weight: 600;
+        font-size: 12pt;
+    `;
+
+    const PlaceStars = styled.div`
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3.5px;
+    `; 
+
+    const Stars = styled.span`
+        color: #ff912c;
+    `;
+
+    const SpanTxt = styled.p`
+        font-size: 14px;
+        color: gray;
+    `;
+
+    const ProfileContent = styled.div`
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    `;
 
   return (
     <CardConteiner>
@@ -134,8 +172,33 @@ function CardCourses() {
     <PriceTxt>
         R$ 32.00 <DiscountTxt>/ 67.00</DiscountTxt>
     </PriceTxt>
-    <DivLinear><Linear/></DivLinear>
-
+    <DivL>
+        <DivLinear>
+            <ProfileContent>
+                <ImgProfile src="assets/grid_small_1.jpg" alt="perfil" height={32} width={32} />
+                <ProfileName>Micle John</ProfileName>
+            </ProfileContent>
+            <PlaceStars>
+                <Stars>
+                    <IoStar/>
+                </Stars>
+                <Stars>
+                    <IoStar/>
+                </Stars>
+                <Stars>
+                    <IoStar/>
+                </Stars>
+                <Stars>
+                    <IoStar/>
+                </Stars>
+                <Stars>
+                    <IoStar/>
+                </Stars>
+                <SpanTxt>&#40;44&#41;</SpanTxt>
+            </PlaceStars>
+        </DivLinear>
+    </DivL>
+        
     </CardConteiner>
   )
 }
