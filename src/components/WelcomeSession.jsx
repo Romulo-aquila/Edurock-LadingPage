@@ -129,7 +129,7 @@ function WelcomeSession() {
                 <ItemList>
                 <Icon><CgCheck/></Icon>
                     <TextList>
-                    Explore uma variedade de novos ensinamentos educacionais 
+                    Explore uma variedade de novos conceitos educacionais 
                     </TextList>
                 </ItemList>
                 <ItemList>
