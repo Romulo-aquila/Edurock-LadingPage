@@ -5,6 +5,7 @@ import NavHeader from './components/NavHeader';
 import MainContent from './components/MainContent';
 import CompaniesSession from './components/CompaniesSession';
 import WelcomeSession from './components/WelcomeSession';
+import CourseSession from './components/CourseSession';
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <MainContent/>
       <CompaniesSession/>
       <WelcomeSession/>
+      <CourseSession/>
     </>
   )
 }
