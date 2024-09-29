@@ -5,12 +5,10 @@ import { IoStar } from "react-icons/io5";
 
 function CardCourses() {
     const CardConteiner = styled.section`
-    width: 60.9%;
-    height: 554.317px;
-    background-color: #ffffff;
-    /* background-color: gray; */
-    border-radius: 16px;
-   
+        width: auto;
+        height: 554.317px;
+        background-color: #ffffff;
+        border-radius: 16px;
     `;
 
     const ImgPlace = styled.div`
