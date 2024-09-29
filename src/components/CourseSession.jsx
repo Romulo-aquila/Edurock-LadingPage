@@ -5,6 +5,7 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 function CourseSession() {
 const Content = styled.div`
     padding-top: 5.5rem;
+    background-color: #f2e7f6;
 `;
 
 const HeaderSession = styled.div`

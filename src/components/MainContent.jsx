@@ -4,19 +4,19 @@ import CardCourses from "./CardCourses";
 function MainContent() {
 
     const PlaceMain = styled.main`
-    width: 100%;
-    height: 670px;
-    display: flex;
-    flex-direction: row;
-    background-color: #f7f8fd;
-    padding-top: 4.375rem;
-    padding-right: 16.5px;
+        width: 100%;
+        height: 670px;
+        display: flex;
+        flex-direction: row;
+        background-color: #f0effc;
+        padding-top: 4.375rem;
+        padding-right: 16.5px;
     `;
 
     const Main = styled.div`
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     `;
 
     const Caption = styled.h3`
@@ -107,7 +107,7 @@ function MainContent() {
         justify-content: flex-end;
         align-items: center;
         padding-right: 12.5rem;
-        background-color: #f7f8fd;
+        background-color: #f0effc;
         padding-bottom: 35px;
         gap: 0.5rem;
     `;
