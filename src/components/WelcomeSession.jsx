@@ -9,7 +9,7 @@ function WelcomeSession() {
         flex-direction: row;
         justify-content: center;
         gap: 7.5rem;
-        background-color: #f7f8fd;
+        background-color: #f2e7f6;
         /* background-color: gray; */
         padding-top: 57px;
     `;
@@ -101,7 +101,7 @@ function WelcomeSession() {
     const WhiteSpace = styled.div`
         width: 100%;
         height: 1.8rem;
-        background-color: #f7f8fd;
+        background-color: #f2e7f6;
     `;
 
   return (
