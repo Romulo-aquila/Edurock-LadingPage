@@ -48,7 +48,7 @@ function CardsSession() {
     `;
 
     const CardsConteiner = styled.div`
-        width: 270px;
+        width: 16.875rem;
         height: 193.4px;
         border-radius: 14px;
         background-color: #fff;

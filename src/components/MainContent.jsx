@@ -8,6 +8,7 @@ function MainContent() {
         height: 670px;
         display: flex;
         flex-direction: row;
+        justify-content: center;
         background-color: #f0effc;
         padding-top: 4.375rem;
         padding-right: 16.5px;
