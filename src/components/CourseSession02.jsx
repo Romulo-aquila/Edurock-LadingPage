@@ -1,9 +1,10 @@
 import styled from "styled-components";
+import CardS001 from "./CardS001";
 
 function CourseSession02() {
   const Content = styled.div`
   padding-top: 5.5rem;
-  background-color: #fff;
+  background-color: #f3effe;
 `;
 
 const HeaderSession = styled.div`
@@ -11,6 +12,7 @@ const HeaderSession = styled.div`
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  padding-bottom: 5.5rem;
 `;
 
 const CaptionTxt = styled.p`
@@ -27,14 +29,8 @@ const CaptionTxt = styled.p`
   height: 30px;
 `;
 
-const InfoTxt = styled.p`
-font-size: 12.5pt;
-font-weight: 400;
-color: #7e8890;
-`;
-
 const Title = styled.h2`
-  font-size: 27pt;
+  font-size: 27.8pt;
   font-weight: 800;
 `;
 
@@ -67,6 +63,30 @@ const ItemList = styled.li`
   }
 `;
 
+  const CardsConteiner = styled.div`
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #f3effe;
+    padding-top: 2rem;
+    gap: 1.5rem;
+  `;
+
+  const PropImgs = [
+    {
+      profileImg: "assets/grid_small_1.jpg"
+    },
+    {
+      profileImg: "assets/grid_small_2.jpg"
+    },
+    {
+      profileImg: "assets/grid_small_3.jpg"
+    },
+    {
+      profileImg: "assets/grid_small_4.jpg"
+    }
+  ]
+
   return (
     <>
     <Content>
@@ -90,6 +110,16 @@ const ItemList = styled.li`
       <ItemList>Arquitetura</ItemList>
     </OrderedList>
   </HeaderSession>
+  <CardsConteiner>
+    <CardS001 title="Curso básico para entender sobre software" price="32.00" Name="Micle John" profileImg={PropImgs[0].profileImg}/>
+    <CardS001 title="Curso Nidnies para entender sobre software" price="32.00" Name="Rinis Jhon" profileImg={PropImgs[1].profileImg}/>
+    <CardS001 title="Curso de Minws para entender sobre solução " price="40.00" Name="Scott Robin" profileImg={PropImgs[2].profileImg}/>
+  </CardsConteiner>
+  <CardsConteiner>
+    <CardS001 title="Curso de design para entender sobre solução" price="32.00" Name="Jessie Robin" profileImg={PropImgs[3].profileImg}/>
+    <CardS001 title="Curso de dados para entender sobre solução" price="40.00" Name="Carl Jonh" profileImg={PropImgs[0].profileImg}/>
+    <CardS001 title="Big data para entender o pacote de soluções" price="40.00" Name="Micle John" profileImg={PropImgs[0].profileImg}/>
+  </CardsConteiner>
   </Content>
   </>
   )
