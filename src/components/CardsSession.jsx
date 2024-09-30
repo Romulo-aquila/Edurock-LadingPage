@@ -129,7 +129,6 @@ function CardsSession() {
           <TitleCard>Saúde & Fitness</TitleCard>
           <SubTitle>saúde é riqueza</SubTitle>
         </CardsConteiner>
-
         <CardsConteiner>
         <Circle>
           <IconCard src="assets/saude.png" alt="Saude" />
