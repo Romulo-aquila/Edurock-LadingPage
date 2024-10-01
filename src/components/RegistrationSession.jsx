@@ -105,7 +105,7 @@ function RegistrationSession() {
     <>
     <Container>
      <TextSection>
-        <CaptionTxt>Registrar-se</CaptionTxt>
+        <CaptionTxt>Registre-se</CaptionTxt>
         <Title>Registre Sua <Underline>Conta</Underline> e Obtenha Acesso Gratuito a 
             <NumYellow> 60000</NumYellow> cursos online </Title>
         <PlayAndSubTitle>
@@ -115,7 +115,7 @@ function RegistrationSession() {
         </PlayAndSubTitle>
     </TextSection>
         <RegisterField>
-            <RgText>Registrar-se</RgText>
+            <RgText>Registre-se</RgText>
         </RegisterField>
     </Container>
     <WSpace></WSpace>
