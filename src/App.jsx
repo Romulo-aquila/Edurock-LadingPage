@@ -7,6 +7,7 @@ import CompaniesSession from './components/CompaniesSession';
 import WelcomeSession from './components/WelcomeSession';
 import CourseSession from './components/CourseSession';
 import CourseSession02 from './components/CourseSession02';
+import RegistrationSession from './components/RegistrationSession';
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <WelcomeSession/>
       <CourseSession/>
       <CourseSession02/>
+      <RegistrationSession/>
     </>
   )
 }

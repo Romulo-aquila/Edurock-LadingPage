@@ -169,7 +169,9 @@ const ItemList = styled.li`
   </CardsConteiner>
   <CardsConteiner>
     <CardS001 title={PropImgs[3].title} color={PropImgs[3].color} Legend={PropImgs[3].legend} lesson={PropImgs[3].lesson} Image={PropImgs[3].image} price={PropImgs[0].price} Time={PropImgs[3].time} Name={PropImgs[3].name} profileImg={PropImgs[3].profileImg}/>
+    
     <CardS001 title={PropImgs[4].title} color={PropImgs[4].color} Legend={PropImgs[4].legend} lesson={PropImgs[3].lesson} Image={PropImgs[4].image} price={PropImgs[1].price} Time={PropImgs[3].time} Name={PropImgs[4].name} profileImg={PropImgs[0].profileImg}/>
+    
     <CardS001 title={PropImgs[5].title} color={PropImgs[5].color} Legend={PropImgs[5].legend} lesson={PropImgs[4].lesson} Image={PropImgs[5].image} price={PropImgs[1].price} Time={PropImgs[3].time} Name={PropImgs[0].name} profileImg={PropImgs[0].profileImg}/>
   </CardsConteiner>
   <WhiteSpace></WhiteSpace>
