@@ -23,7 +23,7 @@ const Image = styled.div`
   margin: 0 1.5rem;
   height: 224px;
   width: 375px;
-  background-image: url(assets/img_Course.png);
+  background-image: url(${props.Image});
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -34,13 +34,13 @@ const Image = styled.div`
 const Legend = styled.div`
   z-index: 3;
   margin-left: 7.5px;
-  width: 95px;
+  width: 130px;
   height: 20px;
   display: flex;
   margin-top: 8px;
   justify-content: center;
   align-items: center;
-  background-color: #f2277e;
+  background-color: ${props.color};
   border-radius: 3.5px;
   font-size: 12.5px;
   font-weight: 500;
@@ -151,18 +151,18 @@ return (
 <CardConteiner>
  <ImgPlace>
      <Image>
-  <Legend>Data & Tech</Legend>
+  <Legend>{props.Legend}</Legend>
      </Image>
  </ImgPlace>
 
  <Info>
   <IconTxt>
       <Icon><FaBook/></Icon>
-          <InfoText>23 Lições</InfoText>
+          <InfoText>{props.lesson} Lições</InfoText>
   </IconTxt>
   <IconTxt>
       <Icon><IoMdTime/></Icon>
-          <InfoText>1 hr 30 min</InfoText>
+          <InfoText>{props.Time}</InfoText>
   </IconTxt>
  </Info>
 
