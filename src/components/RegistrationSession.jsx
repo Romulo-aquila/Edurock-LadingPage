@@ -86,6 +86,9 @@ function RegistrationSession() {
         height: 575.4px;
         background-color: #f5f5fe;
         border-radius: 5px;
+        -webkit-box-shadow: -20px 32px 42px -13px rgba(0,0,0,0.08);
+        -moz-box-shadow: -20px 32px 42px -13px rgba(0,0,0,0.08);
+        box-shadow: -20px 32px 42px -13px rgba(0,0,0,0.08);
     `;
 
     const FormField = styled.form`
