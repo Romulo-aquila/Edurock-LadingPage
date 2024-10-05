@@ -8,6 +8,7 @@ function TeacherSession() {
     const SmallTitle = styled.h3`
         font-size: 12pt;
         color: #f2277e;
+        padding-bottom: 16px;
     `;
 
     const MainTitle = styled.h1``;
@@ -72,7 +73,7 @@ function TeacherSession() {
     <Content>
         <Titles>
             <SmallTitle>PROFESSORES ESPECIALISTAS</SmallTitle>
-            <MainTitle>Nosso Professor Especialista</MainTitle>
+            <MainTitle>Nossos Professores Especialistas</MainTitle>
         </Titles>
             <ContainerImgs>
                 <ContainerImage>
