@@ -1,4 +1,8 @@
 import styled from "styled-components";
+import { FaFacebookF } from "react-icons/fa";
+import { FaBluesky } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
 
 function TeacherSession() {
     const Content = styled.div`
@@ -34,26 +38,6 @@ function TeacherSession() {
 
     `;
 
-    const TeacherImg = styled.div`
-        width: 370px;
-        height: 416px;
-        background-image: url('assets/team__1.png');
-    `;
-
-    const TeacherImg2 = styled.div`
-        width: 370px;
-        height: 416px;
-        background-image: url('assets/team__2.png');
-        
-    `;
-
-    const TeacherImg3 = styled.div`
-        width: 370px;
-        height: 416px;
-        background-image: url('assets/team__3.png');
-        
-    `;
-
     const TitleTeacher = styled.h4`
         font-weight: 500;
         padding: 20px 0 4.5px 0;
@@ -62,6 +46,85 @@ function TeacherSession() {
 
     const NameTeacher = styled.h2`
         color: #5f6c76;
+    `;
+
+    const SocialMidiaList  = styled.div`
+        display: flex;
+        visibility: hidden;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 10px;
+        padding-right: 16px;
+        padding-top: 12px;
+    `;
+
+    const SocialMidiaList02 = styled.div`
+        display: flex;
+        visibility: hidden;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 10px;
+        padding-right: 16px;
+        padding-top: 12px;
+    `;
+
+    const SocialMidiaList03 = styled.div`
+        display: flex;
+        visibility: hidden;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 10px;
+        padding-right: 16px;
+        padding-top: 12px;
+    `;
+
+    const IconsM = styled.span`
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 41px;
+        height: 41px;
+        border-radius: 4.5px;
+        background-color: #fff;
+        transition: 0.2s;
+        color: #66727c;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #5f2ded;
+            color: #fff;
+        }
+    `;
+
+    const TeacherImg = styled.div`
+        width: 370px;
+        height: 416px;
+        background-image: url('assets/team__1.png');
+
+    &:hover > ${SocialMidiaList} {
+        visibility: visible;
+    }
+    `;
+
+    const TeacherImg2 = styled.div`
+        width: 370px;
+        height: 416px;
+        background-image: url('assets/team__2.png'); 
+
+    &:hover > ${SocialMidiaList02} {
+        visibility: visible;
+    }
+    `;
+
+    const TeacherImg3 = styled.div`
+        width: 370px;
+        height: 416px;
+        background-image: url('assets/team__3.png');
+
+    &:hover > ${SocialMidiaList03} {
+        visibility: visible;
+    }
     `;
 
     const WtSpace = styled.div`
@@ -77,17 +140,62 @@ function TeacherSession() {
         </Titles>
             <ContainerImgs>
                 <ContainerImage>
-                    <TeacherImg></TeacherImg>
+                    <TeacherImg>
+                <SocialMidiaList> {/* IconsM */}
+                    <IconsM>
+                        <FaFacebookF></FaFacebookF>
+                    </IconsM>
+                    <IconsM>
+                        <FaBluesky></FaBluesky>
+                    </IconsM>
+                    <IconsM>
+                        <FaInstagram></FaInstagram>
+                    </IconsM>
+                    <IconsM>
+                        <FaYoutube></FaYoutube>
+                    </IconsM>
+                </SocialMidiaList>
+                    </TeacherImg>
                     <TitleTeacher>DESIGNER DE INTERIORES</TitleTeacher>
                     <NameTeacher>Mirnsdo Jons</NameTeacher>
                 </ContainerImage>
                 <ContainerImage>
-                    <TeacherImg2></TeacherImg2>
+                    <TeacherImg2>
+                <SocialMidiaList02> {/* IconsM */}
+                    <IconsM>
+                        <FaFacebookF></FaFacebookF>
+                    </IconsM>
+                    <IconsM>
+                        <FaBluesky></FaBluesky>
+                    </IconsM>
+                    <IconsM>
+                        <FaInstagram></FaInstagram>
+                    </IconsM>
+                    <IconsM>
+                        <FaYoutube></FaYoutube>
+                    </IconsM>
+                </SocialMidiaList02>
+                    </TeacherImg2>
                     <TitleTeacher>DESIGNER DE INTERIORES</TitleTeacher>
                     <NameTeacher>Daniel Rock</NameTeacher>
                 </ContainerImage>
                 <ContainerImage>
-                    <TeacherImg3></TeacherImg3>
+                    <TeacherImg3>
+                <SocialMidiaList03> {/* IconsM */}
+                    <IconsM>
+                        <FaFacebookF></FaFacebookF>
+                    </IconsM>
+                    <IconsM>
+                        <FaBluesky></FaBluesky>
+                    </IconsM>
+                    <IconsM>
+                        <FaInstagram></FaInstagram>
+                    </IconsM>
+                    <IconsM>
+                        <FaYoutube></FaYoutube>
+                    </IconsM>
+                </SocialMidiaList03>
+                    </TeacherImg3>
                     <TitleTeacher>DESIGNER DE INTERIORES</TitleTeacher>
                     <NameTeacher>Sajid Mustahidul</NameTeacher>
                 </ContainerImage>
