@@ -10,6 +10,7 @@ import CourseSession02 from './components/CourseSession02';
 import RegistrationSession from './components/RegistrationSession';
 import TeacherSession from './components/TeacherSession';
 import EducationSolution from './components/EducationSolution';
+import LastSession from './components/LastSession';
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
       <RegistrationSession/>
       <TeacherSession/>
       <EducationSolution/>
+      <LastSession/>
     </>
   )
 }
