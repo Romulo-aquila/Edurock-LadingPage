@@ -132,7 +132,7 @@ function EducationSolution() {
     const CtnTitlesAndProfile = styled.div`
         display: flex;
         flex-direction: column;
-        width: 558px;
+        width: 642px;
     `;
 
     const CtnImage = styled.div`
@@ -141,7 +141,7 @@ function EducationSolution() {
         background-image: url(assets/testi__group__1.png);
         background-size: cover;
         background-position: center;
-        z-index: 4;
+        padding-right: 55.5px;
     `;
 
     const WtSpace = styled.div`
@@ -164,9 +164,9 @@ function EducationSolution() {
                 Por outro lado, denunciamos com justiça e não gostamos 
                     </TxtQuote>de homens que são tão seduzidos e desmoralizados
             pelos encantos do prazer do momento. Não gostamos de homens que são tão
-            seduzidos e desmoralizados pelos encantos do 
+            seduzidos e desmoralizados pelos encantos do prazer do
             <TxtQuote>
-            prazer do momento. Lorem ipsum dolor sit amet.
+             momento. Lorem ipsum dolor sit amet.
                 <Quotes02><BiSolidQuoteRight/></Quotes02>
             </TxtQuote>
                 </TextContent>
