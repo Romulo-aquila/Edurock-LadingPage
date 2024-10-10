@@ -11,6 +11,7 @@ import RegistrationSession from './components/RegistrationSession';
 import TeacherSession from './components/TeacherSession';
 import EducationSolution from './components/EducationSolution';
 import LastSession from './components/LastSession';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -27,6 +28,7 @@ const App = () => {
       <TeacherSession/>
       <EducationSolution/>
       <LastSession/>
+      <Footer/>
     </>
   )
 }
