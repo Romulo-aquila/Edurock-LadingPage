@@ -26,9 +26,39 @@ function LastSession() {
 
     const ImgsContainer = styled.div`
         display: flex;
-        margin-top: 24.5px;
+        margin-top: 22.5px;
+        padding-bottom: 50px;
         flex-direction: row;
+        justify-content: center;
         gap: 2rem;
+    `;
+
+    const MoreBlog = styled.button`
+        width: 184.417px;
+        height: 59px;
+        border: none;
+        background-color: #5f2ded;
+        text-transform: uppercase;
+        border-radius: 4.5px;
+        color: #fff;
+        letter-spacing: 0.8px;
+        font-size: 15.5px;
+        font-weight: 400;
+        cursor: pointer;
+        transition: 0.4s;
+
+    &:hover {
+        border: 1px solid #5f2ded;
+        background-color: #fff;
+        color: #5f2ded;
+    }
+    `;
+
+    const Centralization = styled.div`
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 4.4rem;
     `;
 
   return (
@@ -36,12 +66,18 @@ function LastSession() {
         <Titles>
             <SmallTitle>NOTÍCIAS & BLOG</SmallTitle>
             <MainTitle>Últimas notícias e blogs</MainTitle>
-            <ImgsContainer>
-                <CardS002 lesson={'20 DE ABRIL 2024'} Image={'assets/blog_5.png'} Legend="Story" color={'#000'}/>
-                <CardS002 lesson={'14 DE MARÇO 2024'} Image={'assets/blog_24.png'} Legend="Story" color={'#000'}/>
-                <CardS002 lesson={'10 DE OUTUBRO 2024'} Image={'assets/blog_25.png'} Legend="Story" color={'#000'}/>
-            </ImgsContainer>
         </Titles>
+            <ImgsContainer>
+                <CardS002 lesson={'20 DE ABRIL 2024'} Image={'assets/blog_5.png'} 
+                Legend="Story" color={'#000'}/>
+                <CardS002 lesson={'14 DE MARÇO 2024'} Image={'assets/blog_24.png'} 
+                Legend="Story" color={'#000'}/>
+                <CardS002 lesson={'10 DE OUTUBRO 2024'} Image={'assets/blog_25.png'}
+                 Legend="Story" color={'#000'}/>
+            </ImgsContainer>
+            <Centralization>
+                <MoreBlog>Mais Blogs</MoreBlog>
+            </Centralization>
     </Content>
   )
 }
