@@ -6,6 +6,7 @@ function FooterBtm() {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+        padding-top: 4.5rem;
     `;
 
     const AboutContent = styled.div`

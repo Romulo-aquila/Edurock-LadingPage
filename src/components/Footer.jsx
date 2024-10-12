@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import FooterBtm from "./FooterBtm";
+import FooterEnd from "./FooterEnd";
 
 function Footer() {
     const Container = styled.footer`
@@ -79,7 +80,7 @@ function Footer() {
     `;
 
     const Hr = styled.hr`
-        margin: 3rem 0 4.5rem 0;
+        margin: 3rem 0 1.5rem 0;
         border: 0.1px solid white;
         opacity: 9.5%;
         width: 92%;
@@ -107,6 +108,7 @@ function Footer() {
         </FooterTop>
         <Linear><Hr/></Linear>
         <FooterBtm/>
+        <FooterEnd/>
     </Container>
   )
 }
